@@ -1,0 +1,98 @@
+*{
+	margin: 0px auto;
+	padding: 0px;
+}
+body{
+	background-image: url("../Img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 1366px auto;
+}
+@font-face{
+	src: url('../Fonts/Roboto-Bold_0.ttf');
+	font-family: Roboto;
+}
+@font-face{
+	src: url('../Fonts/RobotoCondensed-Regular_0.ttf');
+	font-family: Roboto Condensed;
+}
+a{
+	text-decoration: none;
+}
+.TD1{
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 32px;
+	color: #221f1f;
+
+}
+.TD2{
+	font-family: Roboto Condensed;
+	font-weight: bold;
+	font-size: 38px;
+	color: #bf0114;
+	margin-top: -2px;
+}
+.container .row .Left .marginLeft{
+margin-left: 80px;
+}
+.container .row .Left .marginLeft a>img{
+	margin-top: 96px;
+}
+.container .row .Left>.marginLeft>.trangChu{
+	color: #fff;
+	font-size: 40px;
+	font-family: Arial;
+	letter-spacing: 6px;
+}
+.container .row .Left>.marginLeft>.trangChu:hover{
+	color: yellow;
+	text-decoration: none;
+}
+.container .row .Right{
+    min-height: 352px;
+    margin-top: 63px;
+}
+.container .row .Right .dN{
+	width: auto;
+	height: 45px;
+	border-bottom: 1px solid #ccc;
+}
+.container .row .Right .dN1{
+	font-size: 24px;
+	font-family: Arial;
+	font-weight: bold;
+}
+.container .row  .form-background{
+	background: #fff;
+	width: 70%;
+	height: 310px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.container .row .Right .form-background form{
+	width: 100%;
+	float: left;
+}
+.container .row  .form-background .form-item{
+	margin-bottom: 20px;
+}
+.container .row  .form-background .marginTop{
+	margin-top: 20px;
+}
+.container .row  .form-background .form-item .form-con{
+	padding: 0px;
+}
+.container .row  .form-background .form-check-label{
+	font-weight: normal;
+}
+.container .row  .form-background .btn{
+	background: #da2032;
+	font-weight: bold;
+}
+.container .row  .form-background .btn:hover{
+	background: yellow;
+}
+#quenMK{
+	color: red;
+	font-weight: bold;
+}
